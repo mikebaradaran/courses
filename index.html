@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improving Courseware</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            line-height: 1.5;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        h1, h2, h3 {
+            margin-top: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        ul {
+            margin-left: 1.2rem;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Improving How We Design, Create, and Publish Courseware</h1>
+
+    <h2>Main points</h2>
+    <p>
+        I want to highlight three systemic problems in how we design and publish courseware,
+        and the concrete fixes that will save time, costs, and improve quality.
+    </p>
+
+    <p><strong>Our courseware issues come from three places:</strong></p>
+    <ul>
+        <li>Unclear production standards</li>
+        <li>A weak design process</li>
+        <li>A slow, nontechnical publication pipeline</li>
+    </ul>
+
+    <p><strong>The document outlines simple fixes:</strong></p>
+    <ul>
+        <li>Clear slide standards</li>
+        <li>SOL-first design</li>
+        <li>An Agile publication workflow managed by people who understand the content</li>
+        <li>Centralised storage and proper metadata so knowledge isn’t lost</li>
+    </ul>
+
+    <h2>Meeting structure</h2>
+
+    <h3>A. The problem (2 minutes)</h3>
+    <ul>
+        <li>Slides are inconsistent and overloaded</li>
+        <li>SOLs are an afterthought</li>
+        <li>No technical review process</li>
+        <li>Publication pipeline run by nontechnical staff</li>
+        <li>Knowledge is scattered and lost amongst other publications</li>
+        <li>The pipeline is tedious, slow, and not Agile.</li>
+    </ul>
+
+    <h3>B. The impact (1 minute)</h3>
+    <ul>
+        <li>Trainers waste time rewriting</li>
+        <li>Students get inconsistent experiences</li>
+        <li>Courses drift away from the SOL</li>
+        <li>Quality depends on who last touched the material</li>
+    </ul>
+
+    <h3>C. The solution (3 minutes)</h3>
+    <ul>
+        <li>Clear slide standards</li>
+        <li>SOL-first design</li>
+        <li>Agile publication pipeline</li>
+        <li>Centralised database and course metadata (authors, difficulties, reusable assets)</li>
+        <li>Store all course information in a database for fast retrieval.</li>
+    </ul>
+
+    <h3>D. The ask (30 seconds)</h3>
+    <p>
+        I’m asking for support to pilot this improved workflow on one module.
+        If it works, we scale it.
+    </p>
+
+    <hr />
+
+    <h2>1. Standards for courseware production</h2>
+
+    <p><strong>Purpose of a slide</strong></p>
+    <ul>
+        <li>Define whether a slide is a teaching aid or reference material</li>
+        <li>Limit text density: clear guidance on maximum lines/bullets per slide</li>
+        <li>Use animation and graphics intentionally, not decoratively</li>
+        <li>No code as screenshots — use real code snippets or GitHub links</li>
+        <li>Provide links to trainer demos or prerecorded walkthroughs</li>
+    </ul>
+
+    <h2>2. Course design process</h2>
+
+    <h3>2.1 Start with the SOL (not as an afterthought)</h3>
+    <ul>
+        <li>SOL must be part of the initial design, not something added later</li>
+        <li>Use Excel-based SOLs for clarity and timing control</li>
+        <li>
+            <a href="Scottish MOD1_timings.xlsx">Scottish MOD1_timings.xlsx</a>
+        </li>
+    </ul>
+
+    <h3>2.2 Research and preparation</h3>
+    <ul>
+        <li>Check for existing material before writing new content</li>
+        <li>Identify the correct SME to contact for deeper technical input</li>
+    </ul>
+
+    <h3>2.3 Designing the learning experience</h3>
+    <ul>
+        <li>Define lecture length as part of the design</li>
+        <li>Ensure labs drive the learning, not the other way around</li>
+        <li>Decide how much learning can be shifted into labs to reduce slide load</li>
+    </ul>
+
+    <h2>3. Publication process</h2>
+
+    <h3>3.1 Current issues</h3>
+    <ul>
+        <li>Pipeline is managed by people with no subject knowledge</li>
+        <li>Curriculum managers &amp; line managers</li>
+        <li>Courseware team, publication team, scheduling</li>
+        <li>The pipeline is tedious, slow, and not Agile</li>
+        <li>We clearly have no review process ❌</li>
+    </ul>
+
+    <h3>3.2 Proposed improvements</h3>
+    <ul>
+        <li>Create an Agile publication pipeline</li>
+        <li>Potentially managed by trainers, not nontechnical staff</li>
+        <li>SOLs should be Excel-based, not Word documents</li>
+        <li>Host all courses on one website — eliminate courseware request emails</li>
+    </ul>
+
+    <h3>3.3 Course metadata and knowledge sharing</h3>
+    <p><strong>Each course should record:</strong></p>
+    <ul>
+        <li>Change history</li>
+        <li>Author name</li>
+        <li>Skills required to teach the course</li>
+        <li>Names of trainers who have delivered it</li>
+        <li>Known difficulties and hard labs</li>
+        <li>Shared knowledge, labs, demos, and reusable assets</li>
+    </ul>
+
+    <h3>3.4 Centralised storage</h3>
+    <ul>
+        <li>Store all course information in a database for fast retrieval</li>
+    </ul>
+    <img src="Course_ERD.png" style="width:100%; height:auto;" alt="Courses ERD"/>
+</body>
+</html>
